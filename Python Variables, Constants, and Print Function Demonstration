@@ -1,0 +1,69 @@
+# Python Variables, Constants, and Print Function Demonstration
+
+This Python script demonstrates the use of variables, constants, and various print function techniques.
+
+## Code Example
+
+```python
+# Demonstrating Variables, Constants, and Print Function
+
+# CONSTANTS (conventionally written in uppercase)
+PI = 3.14159
+GRAVITY = 9.8
+COMPANY_NAME = "TechCorp Inc."
+MAX_USERS = 1000
+
+# Variables (can change during program execution)
+radius = 5.0
+user_name = "Alice"
+user_age = 25
+is_active = True
+temperature = 72.5
+
+# Print function demonstrations
+print("=== CONSTANTS ===")
+print(f"Value of PI: {PI}")
+print(f"Gravity on Earth: {GRAVITY} m/s²")
+print(f"Company: {COMPANY_NAME}")
+print(f"Maximum users allowed: {MAX_USERS}")
+print()
+
+print("=== VARIABLES ===")
+print(f"Radius: {radius}")
+print(f"User Name: {user_name}")
+print(f"Age: {user_age}")
+print(f"Active Status: {is_active}")
+print(f"Temperature: {temperature}°F")
+print()
+
+# Changing variable values
+print("=== UPDATING VARIABLES ===")
+radius = 7.5  # Update the radius
+user_age = 26  # Happy birthday!
+temperature = 68.0  # Temperature changed
+
+print(f"Updated Radius: {radius}")
+print(f"New Age: {user_age}")
+print(f"New Temperature: {temperature}°F")
+print()
+
+# Multiple variables in one print statement
+print("=== MULTIPLE VALUES IN PRINT ===")
+print("User Info:", user_name, user_age, is_active)
+print(f"Circle - Radius: {radius}, Area: {PI * radius ** 2:.2f}")
+print()
+
+# Different ways to use print function
+print("=== PRINT FUNCTION VARIATIONS ===")
+print("Hello," + " " + "World!")  # String concatenation
+print("The value is:", 42)        # Multiple arguments
+print("Line 1", end=" ")          # Changing end character
+print("Line 2 on same line")
+print("Escape\ncharacters")       # Using escape sequences
+print()
+
+# Formatting output
+print("=== FORMATTED OUTPUT ===")
+print(f"Circle Area: {PI * radius ** 2:.3f}")
+print("User: {} (Age: {})".format(user_name, user_age))
+print("Gravity: %.2f m/s²" % GRAVITY)
