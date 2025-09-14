@@ -1,10 +1,10 @@
 # Python Variables, Constants, and Print Function Demonstration
 
-This Python script demonstrates the use of variables, constants, and various print function techniques.
+#This Python script demonstrates the use of variables, constants, and various print function techniques.
 
 ## Code Example
 
-```python
+# ```python
 # Demonstrating Variables, Constants, and Print Function
 
 # CONSTANTS (conventionally written in uppercase)
